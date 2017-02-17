@@ -15,4 +15,4 @@ By default, the attribute is rendered as an image tag.
 [1]: http://www.rubydoc.info/gems/administrate/Administrate/Field/Image
 %>
 
-<%= field.data %>
+<%= field.data.to_s[0...100] %>
